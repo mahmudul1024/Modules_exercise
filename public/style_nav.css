@@ -1,7 +1,7 @@
-nav ul{
+nav> ul{
     display: flex;
     width: 100%;
-    border: 1px solid #000;
+   
     align-items: center;
     justify-content: center;
     
@@ -22,4 +22,24 @@ li a{
 
 body h1{
     text-align: center;
+}
+
+nav li:hover{
+    color: rgb(245, 157, 43);
+
+}
+
+.dropdown{
+   
+   
+    
+    
+}
+
+nav>ul >li :hover >ul{
+    display: block;
+}
+
+nav>ul>li:hover{
+    border: 3px solid rgb(221, 26, 26);
 }
